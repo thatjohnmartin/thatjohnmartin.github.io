@@ -1,8 +1,17 @@
 body {
-    font-family: 'Whitney SSm A', 'Whitney SSm B';
+/*    font-family: 'Whitney SSm A', 'Whitney SSm B';*/
+	font-family: "proxima-nova", sans-serif;
     font-weight: 300;
     font-style: normal;
     color: #333;
+}
+
+.wf-loading {
+    visibility: hidden;
+}
+
+.wf-active {
+    visibility: visible;
 }
 
 a {
