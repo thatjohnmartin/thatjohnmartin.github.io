@@ -1,0 +1,220 @@
+body {
+    font-family: 'Whitney SSm A', 'Whitney SSm B';
+    font-weight: 300;
+    font-style: normal;
+    color: #333;
+}
+
+a {
+    color: #dd4231;
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 600px;
+}
+
+#banner {
+	text-align: center;
+    margin-top: 3.6rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px dotted #ccc;
+}
+
+#banner img.profile {
+    height: 50px;
+    width: 50px;
+}
+
+#banner h1 {
+    font-size: 2.0rem;
+    font-weight: 300;
+	margin-top: 0.6rem;
+    margin-bottom: 3.6rem;
+}
+
+#banner h1 a {
+	color: black;
+	text-decoration: none;
+}
+
+#menu {
+	text-align: center;
+    margin-top: 1.0rem;
+    margin-bottom: 5.0rem;
+    font-weight: 300;
+    font-size: 1.4rem;
+}
+
+#menu ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+#menu ul li {
+	display: inline-block;
+    margin:0 0.3rem;
+}
+
+#post-list {
+	list-style-type: none;
+	padding-left: 0;
+    margin-top: 0;
+}
+
+#post-list > li {
+    border-bottom: 1px dotted #ccc;
+}
+#post-list > li, .single-hentry {
+    padding-top: 1.4rem;
+    padding-bottom: 2.0rem;
+}
+.single-hentry {
+    margin-bottom: 5.0rem;
+}
+
+#post-list :last-child {
+	border-bottom: none;
+}
+
+abbr.published {
+    font-size: 1.2rem;
+    color: #aaa;
+}
+
+.hentry img, .single-hentry img {
+    width: 100%;
+}
+
+p {
+    line-height: 2.1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.paginator {
+	text-align: center;
+    font-size: 1.2rem;
+    margin-top: 3.0rem;
+    margin-bottom: 6.0rem;
+}
+
+#page-footer p {
+	text-align: center;
+    font-size: 1.2rem;
+    color: #aaa;
+    font-style: normal;
+    margin-top: 0;
+}
+
+#page-footer p:last-of-type {
+    margin-bottom: 3.0rem;
+}
+
+#page-footer .social-links {
+    text-align: center;
+    margin-bottom: 6.0rem;
+}
+
+#page-footer a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+#page-footer a:hover {
+    text-decoration: underline;
+    color: #dd4231;
+}
+
+#page-footer a.social-link:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-weight: 600;
+    color: #111;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+h2 {
+    font-size: 2.8rem;
+}
+
+h2.entry-title {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+h2.entry-title a {
+    text-decoration: none;
+    color: #3A414C;
+}
+
+h2.entry-title.link-post {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-top: 0.3rem;
+    line-height: 2.1rem;
+}
+
+h2.entry-title.link-post a {
+    color: #dd4231;
+    text-decoration: underline;
+}
+
+h2.entry-title.link-post a.permalink {
+    color: #eee;
+    text-decoration: none;
+    margin-left: 0.5rem;
+}
+
+#post-list li:hover h2.entry-title.link-post a.permalink,
+.single-hentry:hover h2.entry-title.link-post a.permalink {
+    color: #ccc;
+}
+
+#post-list li h2.entry-title.link-post a.permalink:hover,
+.single-hentry h2.entry-title.link-post a.permalink:hover {
+    color: #dd4231;
+    text-decoration: underline;
+}
+
+blockquote {
+    border-left: 1px solid #ddd;
+    margin-left: 2.0rem;
+    padding-left: 2.0rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+abbr[title] {
+    border-bottom: none;
+}
+
+ol ol, ol ul, ul ol, ul ul, ol, ul {
+    list-style-position: outside;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding-left: 4.0em;
+}
+
+li {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+hr {
+    border-top: 1px dotted #ccc;
+    border-bottom: none;
+    margin-top: 3.0rem;
+    margin-bottom: 3.0rem;
+}
+
+.entry-content hr {
+    margin-left: 30%;
+    margin-right:30%;
+}
+
