@@ -1,6 +1,6 @@
 body {
 /*    font-family: 'Whitney SSm A', 'Whitney SSm B';*/
-	font-family: "jaf-facitweb", sans-serif;
+	font-family: "museo-sans", sans-serif;
     font-weight: 300;
     font-style: normal;
     color: #333;
@@ -142,7 +142,7 @@ p {
 }
 
 h1, h2 {
-    font-weight: 700;
+    font-weight: 500;
     color: #111;
     letter-spacing: normal;
     line-height: normal;
